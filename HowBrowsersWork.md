@@ -1,0 +1,32 @@
+# What is a browser?
+A web browser is a software application whose main function is to present web recourse chosen, by requesting it from the server and displaying it in the browser window.The resource is usually an HTML document, but may also be a PDF, image, or some other type of content. The location of the resource is specified by the user using a URI (Uniform Resource Identifier).
+
+### Examples of browsers include:
+* Chrome
+* Firefox
+* Edge
+* Safari
+
+### The browsers have common user interface like the:
+
+* Address bar for typing the URL
+* Menu icon
+* Home, refresh, forward and backward buttons
+
+## The browser’s main components are:
+
+1. **The user interface:** this includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
+
+2. **The browser engine:** marshals actions between the UI and the rendering engine.
+
+3. **The rendering engine:** responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.
+
+4. **Networking:** for network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.
+
+5. **UI backend:** used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.
+
+6. **JavaScript interpreter:** Used to parse and execute JavaScript code.
+
+7. **Data storage:** This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+
+
