@@ -48,6 +48,8 @@ The render tree contains rectangles with visual attributes like color and dimens
 
 After the construction of the render tree it goes through a "layout" process. This means giving each node the exact coordinates where it should appear on the screen. The next stage is painting–the render tree will be traversed and each node will be painted using the UI backend layer and hence we are able to view the requested output.
 
+**How it actually works**
+When we type in a URL or click on a link and hit the Go button.The web browser program sends a request to a web server program running on the remote computer, the server program, gathers the request from the web browser, tries to hunt for the web page and then formulates a response.
 
 
 
