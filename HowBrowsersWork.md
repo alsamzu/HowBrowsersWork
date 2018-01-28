@@ -65,6 +65,10 @@ First the cache stored in your browser is checked, then the cache stored by your
 Once the browser receives the correct IP address it will build a connection with the server that matches IP address to transfer information. Browsers use internet protocols to build such connections. There are a number of different internet protocols which can be used but TCP is the most common protocol used for any type of HTTP request.
 
  ### The browser sends an HTTP request to the web server.
+ Once the TCP connection is established, it is time to start transferring data. The browser will send a GET request asking for the requested web page. It will also pass information taken from cookies the browser has in store for this domain.
+ 
+ ### The server handles the request and sends back a response.
+ The server contains a web server (i.e Apache, IIS) which receives the request from the browser and passes it to a request handler to read and generate a response.Then it will assemble a response in a particular format (JSON, XML, HTML).
  
  
 
