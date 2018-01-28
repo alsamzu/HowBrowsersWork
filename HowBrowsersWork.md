@@ -51,6 +51,16 @@ After the construction of the render tree it goes through a "layout" process. Th
 **How it actually works**
 When we type in a URL or click on a link and hit the Go button.The web browser program sends a request to a web server program running on the remote computer, the server program, gathers the request from the web browser, tries to hunt for the web page and then formulates a response.
 
+### DNS Lookup
+DNS(Domain Name System) is a database that maintains the name of the website (URL) and the particular IP address it links to. Every single URL on the internet has a unique IP address assigned to it. The IP address belongs to the computer which hosts the server of the website we are requesting to access. For an example, www.google.com has an IP address of 209.85.227.104. So if you’d like you can reach www.google.com by typing http://209.85.227.104 on your browser. DNS is a list of URLs and their IP addresses. The main purpose of DNS is human-friendly navigation.
+#####In order to find the DNS record, the browser checks four caches.
+* Browser cache
+* Operating system cache
+* Router cache
+* ISP DNS cache
+
+First the cache stored in your browser is checked, then the cache stored by your operating system, and so on. If none of these cached files have the information needed, a recursive search of root DNS servers takes place.
+
 
 
 
