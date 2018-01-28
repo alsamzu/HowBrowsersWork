@@ -59,7 +59,14 @@ DNS(Domain Name System) is a database that maintains the name of the website (UR
 * Router cache
 * ISP DNS cache
 
-First the cache stored in your browser is checked, then the cache stored by your operating system, and so on. If none of these cached files have the information needed, a recursive search of root DNS servers takes place.
+First the cache stored in your browser is checked, then the cache stored by your operating system, and so on. If none of these cached files have the information needed, a recursive search of root DNS servers takes place.If the requested URL is not in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server that hosts the URL.
+
+### Browser initiates a TCP connection with the server.
+Once the browser receives the correct IP address it will build a connection with the server that matches IP address to transfer information. Browsers use internet protocols to build such connections. There are a number of different internet protocols which can be used but TCP is the most common protocol used for any type of HTTP request.
+
+ ### The browser sends an HTTP request to the web server.
+ 
+ 
 
 
 
