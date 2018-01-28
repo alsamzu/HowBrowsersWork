@@ -70,6 +70,18 @@ Once the browser receives the correct IP address it will build a connection with
  ### The server handles the request and sends back a response.
  The server contains a web server (i.e Apache, IIS) which receives the request from the browser and passes it to a request handler to read and generate a response.Then it will assemble a response in a particular format (JSON, XML, HTML).
  
+  ### The server sends out an HTTP response.
+  The server response contains the web page you requested as well as the status code, compression type (Content-Encoding), how to cache the page (Cache-Control), any cookies to set, privacy information, etc.
+  
+ ### The browser displays the HTML content.
+ Once your browser receives an HTML file, it needs to render the page and it has to go through a few steps before it is displayed.
+ 1. Process HTML markup and build the DOM tree.
+ 2. Process CSS markup and build the CSSOM tree.
+ 3. Combine the DOM and CSSOM into a render tree.
+ 4. Run the layout on the render tree to compute the geometry of each node.
+ 5. Paint the individual nodes to the screen.
+ 
+ Static files are cached by the browser so it doesn’t have to fetch them again the next time you visit the page. At the end, you’ll see the requested pade appearing on your browser.
  
 
 
